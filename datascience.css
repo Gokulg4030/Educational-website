@@ -1,0 +1,47 @@
+
+#back{
+    background-image: url('./images/aibg.jpg');
+    background-size: cover;
+}
+.smallbox{
+    display: inline-block;
+    padding: 20px;
+}
+#go{
+    border-radius: 10px;
+    background-color: rgb(219, 219, 219);
+    box-shadow: 5px 5px 5px rgb(44, 44, 44);
+}
+.li{
+    display: inline-block;
+}
+.space{
+    height: 50px;
+}
+.head
+{
+    color: var(--bs-orange)!important;
+
+}
+.color{
+    color: var(--bs-orange)!important;
+    font-weight: 700px;
+    font-size: 30px;
+}
+.btn
+{
+    background-color: var(--bs-orange)!important;
+    color: white;
+    font-weight: 600;
+   
+}
+/* .btn:hover{
+    font-size: 16px;
+} */
+#footer{
+    /* background-color: var(--bs-orange)!important; */
+    height: 500px;
+}
+.footer{
+    color: white;
+}

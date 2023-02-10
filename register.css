@@ -1,0 +1,33 @@
+
+
+body{
+    
+        font-family: 'poppins',sans-serif;
+}
+.bg-image{
+    position: relative;
+    background-size: cover;
+    
+}
+#button:hover{
+    background-color:var(--bs-orange)!important;
+    box-shadow: 6px 6px 6px orange;
+    transition: 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    border: none;
+
+}
+#button{
+    border: none;
+    background-color: var(--bs-orange)!important;
+}
+#login:hover{
+    color: orange;
+    
+}
+#head{
+    color:var(--bs-orange)!important;
+    font-weight:700;
+    font-size: 40px;
+}

@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+}
+
+.header{
+    font-size: 36px;
+    color:var(--bs-orange)!important;
+    font-weight: 600;
+}
+
+#user
+{
+    color:var(--bs-orange)!important;
+  
+}
+
+.p
+{
+    font-size:20px;
+    font-style: italic;
+    color: black;
+}
+
+img{
+    margin-top: -50px;
+}
+
+h3
+{
+    font-size: 24px;
+    color:black;
+    font-weight: 300;
+}
+
+
+
+.card
+{
+border-radius: 0;
+box-shadow: 5px 5px 15px var(--bs-orange);
+transition: all 0.3s ease-in;
+-webkit-transition: all 0.3s ease-in;
+-moz-transition: all 0.3s ease-in;
+}
+
+.card:hover
+{
+    background:var(--bs-orange)!important ;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10 px #9e9e9e;
+    box-shadow: 5px 5px 15px var(--bs-violet);
+}
+
+button{
+    text-align: center;
+    padding:7px;
+    border-radius: 5px;
+}
+button a{
+    text-decoration: none;
+    color:var(--bs-orange)!important;
+}
+button:hover{
+    background-color: azure;
+    font-size: 16px;
+}
+
+#footer{
+    /* background-color: var(--bs-orange)!important; */
+    height: 500px;
+}
+.footer{
+    color: white;
+}

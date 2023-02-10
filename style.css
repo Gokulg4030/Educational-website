@@ -1,0 +1,190 @@
+body{
+    font-family: 'poppins',sans-serif;
+}
+
+
+/*  header */
+
+@media(max-width:768px)
+{
+.social-icons
+{
+
+
+display: none;
+}}
+
+ 
+/* navbar */
+
+nav{
+    color: #fff !important;
+    box-shadow: 1px 1px 2px #444;
+}
+
+.navbar-brand
+{
+color:var(--bs-orange)!important;
+font-weight: 700;
+font-size: 250%;
+}
+
+.nav-link
+{
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.quote-container {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #888;
+  }
+  
+  .paragraph {
+    padding: 50px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+/* carousel */
+.mainimg{
+height: 600px;
+width: 60%;
+border-radius: 100px;
+margin-left: 20%;
+border: 3px solid orange;
+margin-top: 20px;
+
+}
+.mainimg:hover{
+  
+    opacity: 80%;
+transition: 0.4s ease-in-out;
+content: "ima"
+
+}
+
+.carousel-inner .carousel-item
+{
+    width: 80%;
+    height: 80vh;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    animation: moveSlides 1s linear infinite;
+
+}
+
+.carousel-inner.carousel-item::before{
+content: '';
+background-color: rgba(12,11, 10, 0.5);
+
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+
+
+
+}
+
+
+.carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 45%;
+    left: 0;
+    right: 0;
+}
+ .carousel-caption h2{
+    color: #fff;
+    margin-top: 50;
+    margin-bottom: 15px;
+    font-size: 80px;
+    font-weight: 800;
+    width: 80%;
+    margin: 0px auto 10px auto;
+}
+
+
+.carousel-caption p{
+    font-size: 20px;
+    width: 80%;
+    margin: 0px auto 20px auto;
+}
+
+
+    /* @media  is a media query to apply different styles like width height and viewport*/
+
+@media(max-width:768px)
+ {
+     .carousel-caption h2{
+        font-size: 38px;
+
+     }
+}
+@media(max-width:577px)
+ {
+     .carousel-caption h2{
+        font-size: 25px;
+
+     }
+     .carousel-caption p{
+        font-size: 18px;
+
+     }
+}
+
+/*  about */
+
+#abt1{
+     margin-left: 2 0%;
+     margin-right: 20%;
+}
+
+.section-heading
+{
+    color:var(--bs-orange)!important;
+    font-weight: 900;
+
+}
+.camp{
+    text-align: justify;
+}
+
+.img-fluid:hover{
+opacity: 50%;
+transition: 0.4s ease-in-out;
+}
+#footer{
+    /* background-color: var(--bs-orange)!important; */
+    height: 500px;
+}
+.footer{
+    color: white;
+}
+.nav-link:hover
+{
+    background-color: var(--bs-orange)!important;
+    border-radius: 50%;
+}
